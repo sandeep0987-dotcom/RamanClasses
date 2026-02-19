@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Raman Coaching Center – Excel in Every Subject</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#" class="logo">
+        <span class="logo-r">R</span>aman<span class="logo-dot">.</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#testimonials">Results</a></li>
+        <li><a href="#contact" class="nav-cta">Enroll Now</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#about" onclick="closeMenu()">About</a>
+    <a href="#courses" onclick="closeMenu()">Courses</a>
+    <a href="#testimonials" onclick="closeMenu()">Results</a>
+    <a href="#contact" onclick="closeMenu()">Enroll Now</a>
+  </div>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-bg">
+      <div class="hero-circle c1"></div>
+      <div class="hero-circle c2"></div>
+      <div class="hero-circle c3"></div>
+      <div class="grid-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge animate-up" style="animation-delay:0.1s">⭐ #1 Coaching Center in the Region</div>
+      <h1 class="hero-title animate-up" style="animation-delay:0.2s">
+        Where Students<br/>
+        <span class="highlight">Discover Their</span><br/>
+        True Potential
+      </h1>
+      <p class="hero-sub animate-up" style="animation-delay:0.35s">
+        Expert faculty · Proven results · JEE · NEET · Board Exams<br/>
+        Personalised attention for every student at Raman Coaching Center.
+      </p>
+      <div class="hero-btns animate-up" style="animation-delay:0.5s">
+        <a href="#contact" class="btn-primary">Start Your Journey →</a>
+        <a href="#courses" class="btn-secondary">Explore Courses</a>
+      </div>
+      <div class="hero-stats animate-up" style="animation-delay:0.65s">
+        <div class="stat"><span class="stat-n">1200+</span><span class="stat-l">Students Taught</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-n">98%</span><span class="stat-l">Pass Rate</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-n">15+</span><span class="stat-l">Years Experience</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-n">50+</span><span class="stat-l">Top Rankers</span></div>
+      </div>
+    </div>
+    <div class="scroll-hint">scroll ↓</div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-visual">
+          <div class="about-card main-card">
+            <div class="card-icon">🎓</div>
+            <div class="card-text">
+              <strong>Est. 2009</strong>
+              <p>15 years of academic excellence</p>
+            </div>
+          </div>
+          <div class="about-card alt-card">
+            <div class="card-icon">🏆</div>
+            <div class="card-text">
+              <strong>Award Winning</strong>
+              <p>Best Coaching Institute 2023</p>
+            </div>
+          </div>
+          <div class="about-blob"></div>
+          <div class="about-number">15<span>yrs</span></div>
+        </div>
+        <div class="about-text">
+          <div class="section-tag">About Raman</div>
+          <h2 class="section-title">Built on <em>Trust</em>,<br/>Driven by <em>Results</em></h2>
+          <p class="body-text">
+            Raman Coaching Center was founded with a single mission — to give every student the tools, confidence, and guidance to achieve their academic dreams. We don't just teach subjects; we shape futures.
+          </p>
+          <p class="body-text">
+            Our experienced faculty brings deep subject expertise and a passion for teaching. Small batch sizes ensure every student gets personal attention, not just a seat in a classroom.
+          </p>
+          <div class="about-features">
+            <div class="feature-item"><span class="feature-icon">✦</span> Small batches (max 20 students)</div>
+            <div class="feature-item"><span class="feature-icon">✦</span> Regular mock tests & analysis</div>
+            <div class="feature-item"><span class="feature-icon">✦</span> Doubt-clearing sessions daily</div>
+            <div class="feature-item"><span class="feature-icon">✦</span> Parent progress reports</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COURSES -->
+  <section id="courses">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">What We Offer</div>
+        <h2 class="section-title">Our <em>Courses</em></h2>
+        <p class="section-sub">Comprehensive programs designed to build deep understanding and exam confidence.</p>
+      </div>
+      <div class="courses-grid">
+
+        <div class="course-card" data-accent="#f5a623">
+          <div class="course-top">
+            <div class="course-icon" style="background:#f5a62322;color:#f5a623">⚛️</div>
+            <div class="course-badge" style="background:#f5a62322;color:#f5a623">Most Popular</div>
+          </div>
+          <h3>JEE Advanced</h3>
+          <p>Comprehensive 2-year preparation covering Physics, Chemistry & Mathematics with IIT-focused strategy.</p>
+          <ul class="course-features">
+            <li>📅 Mon / Wed / Fri — 6 to 8 PM</li>
+            <li>👥 Max 20 students per batch</li>
+            <li>📝 Weekly test series</li>
+          </ul>
+          <div class="course-footer">
+            <span class="course-fee">₹18,000 <small>/year</small></span>
+            <a href="#contact" class="course-btn">Enquire</a>
+          </div>
+        </div>
+
+        <div class="course-card" data-accent="#4fd1c5">
+          <div class="course-top">
+            <div class="course-icon" style="background:#4fd1c522;color:#4fd1c5">🧬</div>
+            <div class="course-badge" style="background:#4fd1c522;color:#4fd1c5">High Demand</div>
+          </div>
+          <h3>NEET Preparation</h3>
+          <p>In-depth Biology, Chemistry & Physics program with NCERT mastery and previous year paper analysis.</p>
+          <ul class="course-features">
+            <li>📅 Tue / Thu / Sat — 5 to 7 PM</li>
+            <li>👥 Max 20 students per batch</li>
+            <li>📝 Bi-weekly mock tests</li>
+          </ul>
+          <div class="course-footer">
+            <span class="course-fee">₹15,000 <small>/year</small></span>
+            <a href="#contact" class="course-btn">Enquire</a>
+          </div>
+        </div>
+
+        <div class="course-card" data-accent="#a78bfa">
+          <div class="course-top">
+            <div class="course-icon" style="background:#a78bfa22;color:#a78bfa">📐</div>
+            <div class="course-badge" style="background:#a78bfa22;color:#a78bfa">Foundation</div>
+          </div>
+          <h3>Class 10 Board Prep</h3>
+          <p>Strong foundation in Mathematics & Science to ace board exams and prepare for competitive entrance tests.</p>
+          <ul class="course-features">
+            <li>📅 Mon to Fri — 4 to 5 PM</li>
+            <li>👥 Max 20 students per batch</li>
+            <li>📝 Chapter-wise tests</li>
+          </ul>
+          <div class="course-footer">
+            <span class="course-fee">₹8,000 <small>/year</small></span>
+            <a href="#contact" class="course-btn">Enquire</a>
+          </div>
+        </div>
+
+        <div class="course-card" data-accent="#56d08a">
+          <div class="course-top">
+            <div class="course-icon" style="background:#56d08a22;color:#56d08a">🗣️</div>
+            <div class="course-badge" style="background:#56d08a22;color:#56d08a">New Batch</div>
+          </div>
+          <h3>English Communication</h3>
+          <p>Build fluency, grammar, and confidence in English for academic success and professional readiness.</p>
+          <ul class="course-features">
+            <li>📅 Sat / Sun — 10 AM to 12 PM</li>
+            <li>👥 Max 15 students per batch</li>
+            <li>📝 Speaking & writing drills</li>
+          </ul>
+          <div class="course-footer">
+            <span class="course-fee">₹6,000 <small>/year</small></span>
+            <a href="#contact" class="course-btn">Enquire</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section id="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Student Stories</div>
+        <h2 class="section-title">Results That <em>Speak</em></h2>
+        <p class="section-sub">Don't take our word for it — hear from students who made it.</p>
+      </div>
+      <div class="testimonials-grid">
+
+        <div class="testi-card featured">
+          <div class="testi-quote">"</div>
+          <p class="testi-text">Raman Coaching Center changed everything for me. I went from struggling with Physics to scoring 98% in my boards. The teachers here genuinely care about every student.</p>
+          <div class="testi-author">
+            <div class="testi-avatar" style="background:#f5a623">A</div>
+            <div>
+              <strong>Arjun Mehta</strong>
+              <span>JEE Advanced — AIR 342</span>
+            </div>
+            <div class="testi-rank">🏆 AIR 342</div>
+          </div>
+        </div>
+
+        <div class="testi-card">
+          <div class="testi-quote">"</div>
+          <p class="testi-text">The NEET batch here is exceptional. Small groups mean you can ask questions without hesitation. I cracked NEET in my first attempt thanks to this coaching.</p>
+          <div class="testi-author">
+            <div class="testi-avatar" style="background:#4fd1c5">P</div>
+            <div>
+              <strong>Priya Sharma</strong>
+              <span>NEET 2023 — 695/720</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testi-card">
+          <div class="testi-quote">"</div>
+          <p class="testi-text">My son's confidence in Mathematics improved dramatically. The daily doubt sessions and parent reports kept us involved throughout. Highly recommend!</p>
+          <div class="testi-author">
+            <div class="testi-avatar" style="background:#a78bfa">R</div>
+            <div>
+              <strong>Mrs. Rekha Verma</strong>
+              <span>Parent — Class 10 Batch</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testi-card">
+          <div class="testi-quote">"</div>
+          <p class="testi-text">The structured study plan and regular mock tests kept me disciplined. I never felt lost because the faculty was always just a call away. Best decision of my life.</p>
+          <div class="testi-author">
+            <div class="testi-avatar" style="background:#56d08a">K</div>
+            <div>
+              <strong>Karan Singh</strong>
+              <span>JEE Mains — 99.4 Percentile</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="results-bar">
+        <div class="result-item"><span>🎯</span><strong>47</strong><p>IIT Selections</p></div>
+        <div class="result-item"><span>🩺</span><strong>63</strong><p>NEET Qualifiers</p></div>
+        <div class="result-item"><span>📊</span><strong>98%</strong><p>Board Pass Rate</p></div>
+        <div class="result-item"><span>⭐</span><strong>4.9/5</strong><p>Student Rating</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="section-tag">Get In Touch</div>
+          <h2 class="section-title">Enroll Your<br/><em>Child Today</em></h2>
+          <p class="body-text">Take the first step towards academic excellence. Fill in the form and our team will reach out within 24 hours.</p>
+          <div class="contact-details">
+            <div class="contact-item">
+              <span class="ci-icon">📍</span>
+              <div>
+                <strong>Address</strong>
+                <p>123 Education Lane, Knowledge Park,<br/>Your City – 400001</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span class="ci-icon">📞</span>
+              <div>
+                <strong>Phone</strong>
+                <p>+91 98765 43210</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span class="ci-icon">✉️</span>
+              <div>
+                <strong>Email</strong>
+                <p>info@ramancoaching.com</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span class="ci-icon">🕐</span>
+              <div>
+                <strong>Hours</strong>
+                <p>Mon – Sat: 9 AM to 8 PM</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form-wrap">
+          <form class="contact-form" id="contactForm" onsubmit="handleSubmit(event)">
+            <div class="form-row">
+              <div class="form-group">
+                <label>Student Name *</label>
+                <input type="text" placeholder="Full name" required />
+              </div>
+              <div class="form-group">
+                <label>Parent's Name *</label>
+                <input type="text" placeholder="Parent / guardian name" required />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label>Phone Number *</label>
+                <input type="tel" placeholder="+91 XXXXX XXXXX" required />
+              </div>
+              <div class="form-group">
+                <label>Email</label>
+                <input type="email" placeholder="email@example.com" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label>Course Interested In *</label>
+              <select required>
+                <option value="">Select a course</option>
+                <option>JEE Advanced</option>
+                <option>NEET Preparation</option>
+                <option>Class 10 Board Prep</option>
+                <option>English Communication</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Current Class / Standard</label>
+              <select>
+                <option value="">Select class</option>
+                <option>Class 8</option>
+                <option>Class 9</option>
+                <option>Class 10</option>
+                <option>Class 11</option>
+                <option>Class 12</option>
+                <option>Dropper / Repeater</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Message (optional)</label>
+              <textarea placeholder="Any specific questions or requirements?" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn-submit">Send Enquiry →</button>
+            <div id="formSuccess" class="form-success" style="display:none">
+              ✅ Thank you! We'll contact you within 24 hours.
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <a href="#" class="logo"><span class="logo-r">R</span>aman<span class="logo-dot">.</span></a>
+          <p>Empowering students since 2009.<br/>Excellence is not a goal — it's a habit.</p>
+        </div>
+        <div class="footer-links">
+          <strong>Quick Links</strong>
+          <a href="#about">About Us</a>
+          <a href="#courses">Courses</a>
+          <a href="#testimonials">Results</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-links">
+          <strong>Courses</strong>
+          <a href="#courses">JEE Advanced</a>
+          <a href="#courses">NEET Prep</a>
+          <a href="#courses">Class 10 Boards</a>
+          <a href="#courses">English Speaking</a>
+        </div>
+        <div class="footer-contact">
+          <strong>Contact</strong>
+          <p>📞 +91 98765 43210</p>
+          <p>✉️ info@ramancoaching.com</p>
+          <p>📍 123 Education Lane, Your City</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 Raman Coaching Center. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
